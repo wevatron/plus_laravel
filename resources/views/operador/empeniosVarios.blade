@@ -1,0 +1,116 @@
+@include('fragments.headerOperador2')
+@extends('fragments.main')
+
+@section('contenido')
+
+
+         <ul class="nav nav-tabs " id="myTab" role="tablist">
+          <li class="nav-item ">
+            <a class="nav-link active" id="nav_valuo_tab" data-toggle="tab" href="nav_valuo" role="tab" aria-controls="nav_valuo" aria-selected="true"><h3>PASO 1</h3>Valuador de Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_pignorante_tab" data-toggle="tab" href="nav_pignorante" role="tab" aria-controls="nav_pignorante" aria-selected="false"><h3>PASO 2</h3>Pignorante</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="plan_id" data-toggle="tab" href="#contact" role="tab" aria-controls="plan_id" aria-selected="false"><h3>PASO 3</h3>Plan de pagos</a>
+          </li>
+        </ul>
+
+<div class="tab-content" id="contenido_id">
+        <div class="tab-pane fade show active" id="nav_valuo" role="tabpanel" aria-labelledby="nav_valuo_tab">   
+                    <div class="card text-justiy">
+              <div class="card-header">
+                VALIDACIÓN
+              </div>
+              <div class="card-body">
+                <div class="input-group mb-3">   
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="producto_id">Producto:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-3" placeholder="Pantalla, computadora, herramienta...">
+                   <div class="input-group-prepend">
+                    <span class="input-group-text" id="marca_id ">Marca:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-2" placeholder="Marca"> 
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="serie_id">Nº de serie:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-2" placeholder="# serie">
+                </div>
+                <div class="w-100"></div>
+            <div class="input-group mb-3">
+                   
+                   <div class="input-group-prepend">
+                    <span class="input-group-text" id="iva_id ">IVA / Cargo:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-2" disabled="" placeholder="0% / 0$ fijo"> 
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="contenido_id ">Contenido:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-2" placeholder="Piezas"> 
+                    
+                    <div class="input-group-prepend">
+                <label class="input-group-text" for="plazo_id">Plazos:</label>
+              </div>
+              <select class="custom-select col-lg-2" id="plazo_id">   
+                 
+                 <option value="12_semanas">12 SEMANAS</option>
+                 
+              </select>
+            </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Descripción</span>
+                  </div>
+                  <textarea class="form-control col-lg-6" id="descripcion_id" placeholder="Descripción del producto"></textarea>
+                </div>
+                <div class="w-100"></div>
+                <button type="button" class="btn btn-primary">Agregar >></button>
+              <button type="button" class="btn btn-secondary">Detalle de pagos >></button>
+                <div class="w-100"></div>
+                <br>
+                <div class="input-group mb-3"> 
+                   <div class="input-group-prepend">
+                    <span class="input-group-text" id="avaluo_id ">Total Avalúo:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-2" disabled="" placeholder="0.00"> 
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="prestamo_id">Total Préstamo:</span>
+                  </div>
+                    <input type="text" class="form-control col-lg-1" placeholder="0.00" ">
+              <select class="custom-select col-lg-1" id="cambiar_id">  
+                <option value="cambiar">Cambiar</option> 
+                 <option value="monto">Monto</option>
+              </select>
+            </div>
+              </div>
+                </div>
+            </div>
+              <div class="card-footer text-right">    
+              <button type="button" class="btn btn-secondary" disabled="">Anterior</button>
+              <button type="button" class="btn btn-secondary">Siguiente</button>
+              <button type="button" class="btn btn-secondary">Empeñar</button>
+              </div>
+        </div>
+   
+          <div class="tab-pane fade show active" id="nav_pignorante" role="tabpanel" aria-labelledby="nav_pignorante_tab">   
+              
+
+
+
+          </div>
+
+          <div class="tab-pane fade" id="contact" role="plan_id" aria-labelledby="plan_id">...</div>
+        </div>
+
+<script type="text/javascript">
+  
+  $('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+
+       
+
+@endsection

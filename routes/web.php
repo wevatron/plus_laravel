@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/prueba', function ()
+{
+	# code...
+	return view('prueba');
+});
+
+Route::get('/empenio', function ()
+{
+	# code...
+	return view('operador.empeniosAlhajas');
+});

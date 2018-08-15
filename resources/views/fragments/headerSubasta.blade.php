@@ -10,24 +10,17 @@
     <ul class="navbar-nav">
   
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="almoneda_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Almoneda</a>
-        <div class="dropdown-menu" aria-labelledby="almoneda_id">
-          <a class="dropdown-item" href="#">Almoneda / Refrendos / Desempeños</a>
-          <a class="dropdown-item" href="#">Reporte detallado ventas Subasta</a>
-          <a class="dropdown-item" href="#">Reporte detallado ventas Vitrina</a>
-          <a class="dropdown-item" href="#">Reporte Demasias pagadas</a>
-          <a class="dropdown-item" href="#">Diario General de Almacen</a>
-          <a class="dropdown-item" href="#">Reporte de Inventario</a>
+        <a class="nav-link dropdown-toggle" href="#" id="reporte_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Reporte</a>
+        <div class="dropdown-menu" aria-labelledby="reporte_id">
+          <a class="dropdown-item" href="#">Corte Caja</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="traspaso_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Traspasos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="traspaso_id">
-          <a class="dropdown-item" href="#">Traspaso Almoneda</a>
-          <a class="dropdown-item" href="#">Traspaso Subasta</a>
+        <a class="nav-link dropdown-toggle" href="#" id="ticket_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ticket </a>
+        <div class="dropdown-menu" aria-labelledby="ticket_id">
+          <a class="dropdown-item" href="#">Reimpresión</a>
         </div>
       </li>
       <li class="nav-item dropdown ">
@@ -44,7 +37,7 @@
 </nav>
 <div class="card">
   <div class="card-body text-right">
-    Modulo Azul | Almoneda | BEATRIZ VELAZQUEZ CORTES
+    Modulo Azul | Subasta | SUBASTADOR
   </div>
 </div>
     @endsection

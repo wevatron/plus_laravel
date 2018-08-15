@@ -15,7 +15,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="depositaria_id">
           <a class="dropdown-item" href="#">Detallado de empeños</a>
-          <a class="dropdown-item" href="#">Depositaria/Refrendos/Abono/Desempeño</a>
+          <a class="dropdown-item" href="#">Depositaria / Refrendos / Abono / Desempeño</a>
           <a class="dropdown-item" href="#">Diario General de Almacen</a>
            <a class="dropdown-item" href="#">Reporte de Inventario</a>
           <a class="dropdown-item" href="#">Reporte boletas canceladas</a>
@@ -26,7 +26,7 @@
           Almoneda
         </a>
         <div class="dropdown-menu" aria-labelledby="almoneda_id">
-          <a class="dropdown-item" href="#">Refrendo/Desempeño</a>
+          <a class="dropdown-item" href="#">Refrendo / Desempeño</a>
         </div>
       </li>
       <li class="nav-item dropdown">

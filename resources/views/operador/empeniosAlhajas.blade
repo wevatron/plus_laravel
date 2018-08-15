@@ -163,8 +163,8 @@
                 ...
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-              
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
             <script type="text/javascript">
 
               
-              $('#contenido_id').on('show.bs.modal', function (event) {
+              $('#exampleModal').on('show.bs.modal', function (event) {
               var button = $(event.relatedTarget) // Button that triggered the modal
               var recipient = button.data('whatever') // Extract info from data-* attributes
               // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
@@ -181,13 +181,6 @@
               var modal = $(this)
               modal.find('.modal-title').text('New message to ' + recipient)
               modal.find('.modal-body input').val(recipient)
-            })
-
-
-
-              $('#nav_valuo').on('click', function (e) {
-              e.preventDefault()
-              $(this).tab('show')
             })
           </script>
 @endsection

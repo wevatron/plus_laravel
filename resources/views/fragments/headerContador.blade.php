@@ -15,17 +15,6 @@
         <div class="dropdown-menu" aria-labelledby="boleta_id">
           <a class="dropdown-item" href="#">Cancelar</a> 
           <a class="dropdown-item" href="#">Histórico</a>	
-          <a class="dropdown-item" href="#">Reimpresión</a>
-          <a class="dropdown-item" href="#">Modificar precio sugerido subasta</a>
-          <a class="dropdown-item" href="#">Modificar precio sugerido vitrina</a>
-        </div>
-      </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="pignatario_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Pignatario
-        </a>
-        <div class="dropdown-menu" aria-labelledby="pignatario_id">
-          <a class="dropdown-item" href="#">Modificar datos</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -33,7 +22,7 @@
           Reporte
         </a>
         <div class="dropdown-menu" aria-labelledby="reporte_id">
-          <a class="dropdown-item" href="#">Corte de Caja</a>
+          <a class="dropdown-item" href="#">Reporte Diario</a>
           <a class="dropdown-item" href="#">Detallado de Empeños</a>
           <a class="dropdown-item" href="#">Detallado Refrendos / Abono / Desempeño</a>
           <a class="dropdown-item" href="#">Detallado Refrendos Almoneda x mes</a>
@@ -43,7 +32,7 @@
           <a class="dropdown-item" href="#">Reporte detallado ventas Vitrina</a>
           <a class="dropdown-item" href="#">Reporte operaciones diarias</a>
           <a class="dropdown-item" href="#">Reporte boletas canceladas</a>
-          <a class="dropdown-item" href="#">Reporte Inventario final</a>
+          <a class="dropdown-item" href="#">Reportes de fin de año</a>
         </div>
       </li>
        <li class="nav-item dropdown">
@@ -58,17 +47,8 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="especial_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Especial
-        </a>
-        <div class="dropdown-menu" aria-labelledby="especial_id">
-          <a class="dropdown-item" href="#">Reporte Operaciones Especiales</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="traspasos_id" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Traspasos
-        </a>
+         Traspasos</a>
         <div class="dropdown-menu" aria-labelledby="traspasos_id">
           <a class="dropdown-item" href="#">Resguardo</a> 
           <a class="dropdown-item" href="#">Traspaso Almoneda</a>	
@@ -89,7 +69,7 @@
 </nav>
 <div class="card">
   <div class="card-body text-right">
-    Modulo Azul | Gerente | MARTHA NEREIDA LOPEZ VERGARA
+    Modulo Azul | Contador | JOAQUINA MERLIN CRUZ
   </div>
 </div>
     @endsection
