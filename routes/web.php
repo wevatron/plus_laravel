@@ -17,12 +17,15 @@ Route::get('/', function () {
 
 Route::get('/prueba', function ()
 {
-	# code...
 	return view('prueba');
 });
 
 Route::get('/empenio', function ()
 {
-	# code...
 	return view('operador.empeniosAlhajas');
+});
+
+Route::get('/gerente', function ()
+{
+	return view('lobbyGerente');
 });
